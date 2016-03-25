@@ -1,0 +1,19 @@
+{
+  "tests": "./*_test.js",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {
+    "Protractor": {
+      "url": "http://todomvc.com/examples/angularjs/",
+      "driver": "hosted",
+      "browser": "firefox",
+      "rootElement": "body"
+    }
+  },
+  "include": {
+    "I": "./steps_file.js"
+  },
+  "bootstrap": false,
+  "mocha": {},
+  "name": "todoangular"
+}
