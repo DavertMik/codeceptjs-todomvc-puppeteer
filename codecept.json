@@ -6,8 +6,9 @@
     "Protractor": {
       "url": "http://todomvc.com/examples/angularjs/",
       "driver": "hosted",
-      "browser": "firefox",
-      "rootElement": "body"
+      "browser": "chrome",
+      "rootElement": "body",
+      "restart": false
     }
   },
   "include": {
