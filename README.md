@@ -1,10 +1,12 @@
 # Testing React TodoMVC with CodeceptJS
 
-Demonstrates scenario-driven approach to testing AngularJS apps with Protractor and CodeceptJS
+Demonstrates scenario-driven approach to testing React app with Puppeteer and CodeceptJS
 
-Learn more at http://codecept.io/angular/
+Learn more at http://codecept.io/puppeteer/
 
 ## Execute Tests
+
+Clone this repository
 
 Install all required packages
 
