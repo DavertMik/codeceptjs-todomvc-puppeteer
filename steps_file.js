@@ -4,7 +4,7 @@
 module.exports = function() {
   return actor({
     createTodo: function(title) {
-      this.fillField({model: 'newTodo'}, title);
+      this.fillField('What needs to be done?', title);
       this.pressKey('Enter');
     }
   });

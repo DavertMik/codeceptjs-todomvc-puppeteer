@@ -1,25 +1,24 @@
 {
-  "name": "todoangular",
+  "name": "todoreact",
   "version": "1.0.0",
-  "description": "Demonstrates scenario-driven approach to testing AngularJS apps with Protractor and CodeceptJS",
+  "description": "Demonstrates scenario-driven approach to testing with Puppeteer and CodeceptJS",
   "main": "TodoMvc_test.js",
   "dependencies": {},
   "devDependencies": {
-    "codeceptjs": "^1.0.0",
-    "mochawesome": "^1.5.3",
-    "protractor": "^5.2.11"
+    "codeceptjs": "^1.1.0",
+    "puppeteer": "^0.13.0|^1.0.0"
   },
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DavertMik/codeceptjs-angular-todomvc.git"
+    "url": "git+https://github.com/DavertMik/codeceptjs-todomvc-puppeteer.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DavertMik/codeceptjs-angular-todomvc/issues"
+    "url": "https://github.com/DavertMik/codeceptjs-todomvc-puppeteer/issues"
   },
-  "homepage": "https://github.com/DavertMik/codeceptjs-angular-todomvc#readme"
+  "homepage": "https://github.com/DavertMik/codeceptjs-todomvc-puppeteer#readme"
 }

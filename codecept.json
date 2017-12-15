@@ -1,20 +1,22 @@
 {
-  "tests": "./*_test.js",
-  "timeout": 10000,
   "output": "./output",
   "helpers": {
-    "Protractor": {
-      "url": "http://todomvc.com/examples/angularjs/",
-      "driver": "hosted",
-      "browser": "chrome",
-      "rootElement": "body",
-      "restart": false
+    "Puppeteer": {
+      "url": "http://todomvc.com/examples/react/",
+      "waitForAction": 500
+    },
+    "MyPuppeteer": {
+      "require": "./mypuppeteer_helper.js"
     }
   },
   "include": {
     "I": "./steps_file.js"
   },
-  "bootstrap": false,
   "mocha": {},
-  "name": "todoangular"
+  "bootstrap": false,
+  "teardown": null,
+  "hooks": [],
+  "tests": "./*_test.js",
+  "timeout": 10000,
+  "name": "todoreact"
 }

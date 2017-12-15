@@ -1,4 +1,4 @@
-# Testing AngularJS TodoMVC with CodeceptJS
+# Testing React TodoMVC with CodeceptJS
 
 Demonstrates scenario-driven approach to testing AngularJS apps with Protractor and CodeceptJS
 
@@ -11,8 +11,6 @@ Install all required packages
 ```
 npm install
 ```
-
-Download and start [Selenium Server](http://codecept.io/installation/#webdriver)
 
 Run tests
 
